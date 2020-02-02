@@ -26,12 +26,18 @@ $user = new Usuario();
 //$aluno->insert();
 //echo $aluno;
 
-
+//Alterar um utilizador
 //$user = new Usuario();
 //$user->loadById(2);
 //$user->update();
 //echo $user;
 
+
+//Apagar um utilizador
+$user = new Usuario();
+$user->loadById(4);
+$user->delete();
+echo $user;
 
 
 
